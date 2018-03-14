@@ -17,6 +17,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
     </build>
 
     <name>ssvvlab2</name>
