@@ -103,7 +103,7 @@ public class DoctorUI {
                 String name = in.nextLine();
                 System.out.println("Enter address:");
                 String address = in.nextLine();
-                p = new Patient(cnp, name, address);
+                p = new Patient(name, cnp, address);
                 try {
                     ctrl.addPatient(p);
                 }
