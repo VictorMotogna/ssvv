@@ -41,4 +41,14 @@ public class AppTestWBT extends TestCase {
         assertEquals(3, numberOfPacients);
         System.out.println();
     }
+
+    public void testAllStatementsConsultations() {
+        repository = new Repository("src/test/java/FilePatientsAllStatements.txt", "src/test/java/FileConsultationsAllStatements.txt");
+        controller =  new DoctorController(repository);
+
+        int numberOfConsultations = controller.getConsultationList().size();
+
+        assertEquals(4, numberOfConsultations);
+        System.out.println();
+    }
 }
