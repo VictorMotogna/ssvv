@@ -36,9 +36,9 @@ public class AppTestWBT extends TestCase {
         repository = new Repository("src/test/java/FilePatientsAllStatements.txt", "src/test/java/FileConsultationsAllStatements.txt");
         controller =  new DoctorController(repository);
 
-        int numberOfPacients = controller.getPatientList().size();
+        int numberOfPatients = controller.getPatientList().size();
 
-        assertEquals(3, numberOfPacients);
+        assertEquals(3, numberOfPatients);
         System.out.println();
     }
 
