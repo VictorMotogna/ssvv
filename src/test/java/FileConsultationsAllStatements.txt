@@ -1,0 +1,4 @@
+1,1960925245055,sore throat,nurofen+c vitamin,01.02.2016
+2,1960925245055,sore throat,vitamin,13
+3, 1960925245054, headache, vitamin, 13
+4, 1960925245056, headache, vitamin, 13
