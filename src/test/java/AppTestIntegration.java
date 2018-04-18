@@ -26,7 +26,7 @@ public class AppTestIntegration extends TestCase {
 
         writer = null;
         try {
-            writer = new PrintWriter("src/test/java/FileConsultationsTests.txt");
+            writer = new PrintWriter("src/test/java/FileConsultationsIntegration.txt");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -34,7 +34,7 @@ public class AppTestIntegration extends TestCase {
         writer.close();
 
 
-        repository = new Repository("src/test/java/FilePatientsTests.txt", "src/test/java/FileConsultationsTests.txt");
+        repository = new Repository("src/test/java/FilePatientsIntegration.txt", "src/test/java/FileConsultationsIntegration.txt");
 
         controller = new DoctorController(repository);
 
@@ -52,14 +52,14 @@ public class AppTestIntegration extends TestCase {
     public void testAddConsultation() {
         PrintWriter writer = null;
         try {
-            writer = new PrintWriter("src/test/java/FileConsultationsTests.txt");
+            writer = new PrintWriter("src/test/java/FileConsultationsIntegration.txt");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
         writer.print("");
         writer.close();
 
-        repository = new Repository("src/test/java/FilePatientsTests.txt", "src/test/java/FileConsultationsTests.txt");
+        repository = new Repository("src/test/java/FilePatientsIntegration.txt", "src/test/java/FileConsultationsIntegration.txt");
 
         controller = new DoctorController(repository);
 

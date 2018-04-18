@@ -4,7 +4,6 @@
     <list default="true" id="8557f58c-368e-45ae-a0db-0f5f8e941929" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AppTestIntegration.java" afterPath="$PROJECT_DIR$/src/test/java/AppTestIntegration.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AppTestIntegration.class" afterPath="$PROJECT_DIR$/target/test-classes/AppTestIntegration.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,12 +64,12 @@
       <file leaf-file-name="AppTestIntegration.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AppTestIntegration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+            <state relative-caret-position="217">
+              <caret line="61" column="78" lean-forward="false" selection-start-line="61" selection-start-column="78" selection-end-line="61" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2002#2010#0" expanded="true" />
-                <element signature="e#2653#2662#0" expanded="true" />
+                <element signature="e#2038#2046#0" expanded="true" />
+                <element signature="e#2689#2698#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +108,18 @@
       <file leaf-file-name="FilePatientsTests.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FilePatientsTests.txt">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilePatientsTrue.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FilePatientsTrue.txt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -163,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/test/java/FileConsultationsTrue.txt" />
         <option value="$PROJECT_DIR$/src/test/java/AppTestWBT.java" />
         <option value="$PROJECT_DIR$/src/test/java/FileConsultationsTests.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/FilePatientsTests.txt" />
         <option value="$PROJECT_DIR$/src/test/java/AppTestIntegration.java" />
       </list>
     </option>
@@ -497,7 +507,7 @@
       <workItem from="1521985032081" duration="2494000" />
       <workItem from="1522221045152" duration="2374000" />
       <workItem from="1523984778537" duration="1963000" />
-      <workItem from="1524034538589" duration="5262000" />
+      <workItem from="1524034538589" duration="5440000" />
     </task>
     <servers />
   </component>
@@ -514,8 +524,8 @@
     <history-entry file="AppTestIntegration - 2018.04.18 at 11h 39m 07s.xml">
       <configuration name="AppTestIntegration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTestIntegration_testAddConsultation - 2018.04.18 at 10h 36m 14s.xml">
-      <configuration name="AppTestIntegration.testAddConsultation" configurationId="JUnit" />
+    <history-entry file="AppTestIntegration - 2018.04.18 at 11h 39m 09s.xml">
+      <configuration name="AppTestIntegration" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AppTestIntegration_testAddConsultation - 2018.04.18 at 10h 36m 16s.xml">
       <configuration name="AppTestIntegration.testAddConsultation" configurationId="JUnit" />
@@ -534,7 +544,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12637000" />
+    <option name="totallyTimeSpent" value="12815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -548,7 +558,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -805,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FilePatientsTrue.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FileConsultationsLoop1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -862,14 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FileConsultationsIntegration.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AppTestWBT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
@@ -906,15 +901,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FilePatientsTests.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FileConsultationsTests.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FileConsultationsTests.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FilePatientsTrue.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FilePatientsTests.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FileConsultationsIntegration.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -924,12 +935,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AppTestIntegration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        <state relative-caret-position="217">
+          <caret line="61" column="78" lean-forward="false" selection-start-line="61" selection-start-column="78" selection-end-line="61" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2002#2010#0" expanded="true" />
-            <element signature="e#2653#2662#0" expanded="true" />
+            <element signature="e#2038#2046#0" expanded="true" />
+            <element signature="e#2689#2698#0" expanded="true" />
           </folding>
         </state>
       </provider>
