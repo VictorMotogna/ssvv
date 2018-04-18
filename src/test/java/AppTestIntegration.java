@@ -15,10 +15,28 @@ public class AppTestIntegration extends TestCase {
     private DoctorController controller;
 
     public void testAddPatient() {
+        PrintWriter writer = null;
+        try {
+            writer = new PrintWriter("src/test/java/FilePatientsTests.txt");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        writer.print("");
+        writer.close();
+
+        writer = null;
+        try {
+            writer = new PrintWriter("src/test/java/FileConsultationsTests.txt");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        writer.print("");
+        writer.close();
+
+
         repository = new Repository("src/test/java/FilePatientsTests.txt", "src/test/java/FileConsultationsTests.txt");
 
         controller = new DoctorController(repository);
-        int noPatientsInitial = controller.getPatientList().size();
 
         try {
             controller.addPatient(new Patient("adi", "1960925245056", "adi"));
@@ -28,7 +46,7 @@ public class AppTestIntegration extends TestCase {
 
         int noPatients = controller.getPatientList().size();
 
-        assertEquals(1, noPatients - noPatientsInitial);
+        assertEquals(1, noPatients);
     }
 
     public void testAddConsultation() {
