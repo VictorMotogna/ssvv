@@ -45,7 +45,7 @@ public class AppTest extends TestCase {
         ctrl = new DoctorController(rep);
         int noPatients = ctrl.getPatientList().size();
 
-        assertEquals(2, noPatients);
+        assertEquals(1, noPatients);
     }
 
     /**
