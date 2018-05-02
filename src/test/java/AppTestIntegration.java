@@ -106,6 +106,77 @@ public class AppTestIntegration extends TestCase {
         assertEquals(patientsWithDisease.size(), patientsWithConsultations.size());
     }
 
+    public void testIntegrationFinal() {
+
+        // add patient test
+
+        String filePatients = "testIntegrationPatients.txt";
+        String fileConsultations = "testIntegrationConsultations.txt";
+
+        PrintWriter writer = null;
+        try {
+            writer = new PrintWriter(filePatients);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        writer.print("");
+        writer.close();
+
+        writer = null;
+        try {
+            writer = new PrintWriter(fileConsultations);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        writer.print("");
+        writer.close();
+
+
+        repository = new Repository(filePatients, fileConsultations);
+
+        controller = new DoctorController(repository);
+
+        try {
+            controller.addPatient(new Patient("adi", "1960925245056", "adi"));
+        } catch (PatientException e) {
+            e.printStackTrace();
+        }
+
+        int noPatients = controller.getPatientList().size();
+
+        assertEquals(1, noPatients);
+
+
+
+
+        // add consultation test
+
+        try {
+            List<String> medicine = new ArrayList<String>();
+            medicine.add("medicine");
+            controller.addConsultation(1 + "", "1960925245056", "diagnostic", medicine, "01.01.2001");
+        } catch (ConsultationException e) {
+            e.printStackTrace();
+        }
+
+        int noConsultations = controller.getConsultationList().size();
+
+        assertEquals(1, noConsultations);
+
+
+
+        // test patients with disease
+
+        int numberOfConsultations = 0;
+        try {
+            numberOfConsultations = controller.getPatientsWithDisease("diagnostic").size();
+        } catch (PatientException e) {
+            e.printStackTrace();
+        }
+
+        assertEquals(1, numberOfConsultations);
+    }
+
     public void finalIntegrationTest() {
         testAddPatient();
         testAddConsultation();
